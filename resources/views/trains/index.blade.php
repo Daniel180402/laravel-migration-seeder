@@ -7,6 +7,7 @@
         <div class="row">
             <div class="col-12 ps-4">
                 <h1>Trains:</h1>
+                @dump($trains)
             </div>
             <div class="col-4">
                 <div class="card p-3 m-3" style="width: 18rem;">
