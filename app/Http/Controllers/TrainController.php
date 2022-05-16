@@ -11,4 +11,9 @@ class TrainController extends Controller
         $trains = train::paginate(9);
         return view('trains.index', ["trains" => $trains]);
     }
+
+    public function show($id){
+        $train = train::findOrFail($id);
+        return view('trains.show', ["train" => $train]);
+    }
 }

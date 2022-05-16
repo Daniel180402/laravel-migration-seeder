@@ -21,6 +21,7 @@
                         <p class="card-text">Numero_Carrozze: {{ $train->Numero_Carrozze }}</p>
                         <p class="card-text">In_orario: {{ $train->In_orario }}</p>
                         <p class="card-text">Cancellato: {{ $train->Cancellato }}</p>
+                        <a href="{{route("posts.show", $train->id)}}" class="btn btn-primary">Info</a>
                     </div>
                 </div>
             </div>
