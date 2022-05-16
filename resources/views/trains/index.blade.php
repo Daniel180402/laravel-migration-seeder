@@ -13,7 +13,7 @@
                 <div class="card p-3 m-3" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">Azienda: {{ $train->azienda }}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Codice Treno:{{ $train->Codice_Treno }}</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Codice Treno: {{ $train->Codice_Treno }}</h6>
                         <p class="card-text">Stazione di partenza: {{ $train->Stazione_di_partenza }}</p>
                         <p class="card-text">Stazione di arrivo: {{ $train->Stazione_di_arrivo }}</p>
                         <p class="card-text">Orario_di_partenza: {{ $train->Orario_di_partenza }}</p>
